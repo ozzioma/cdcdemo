@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commonsdata/commons.data.iml" filepath="$PROJECT_DIR$/commonsdata/commons.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sinksparkdelta/sink.sparkdelta.iml" filepath="$PROJECT_DIR$/sinksparkdelta/sink.sparkdelta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sourcedataproducer/source.dataproducer.iml" filepath="$PROJECT_DIR$/sourcedataproducer/source.dataproducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sourcewordpress/source.wordpress.iml" filepath="$PROJECT_DIR$/sourcewordpress/source.wordpress.iml" />
+    </modules>
+  </component>
+</project>

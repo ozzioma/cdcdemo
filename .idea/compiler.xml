@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sink.sparkdelta" />
+        <module name="source.dataproducer" />
+        <module name="source.wordpress" />
+        <module name="commons.data" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons.data" target="1.8" />
+      <module name="mysql.logreader" target="1.5" />
+      <module name="sink.elasticsearch" target="1.5" />
+      <module name="sink.jms" target="1.5" />
+      <module name="sink.mongodb" target="1.5" />
+      <module name="sink.oracle" target="1.5" />
+      <module name="sink.shopify" target="1.5" />
+      <module name="sink.sparkdelta" target="1.8" />
+      <module name="source.dataproducer" target="1.8" />
+      <module name="source.mysqlgeneric" target="1.8" />
+      <module name="source.suitecrm" target="1.5" />
+      <module name="source.wordpress" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-Xplugin:&quot;Manifold strings exceptions&quot; " />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons.data" options="-parameters" />
+      <module name="mysql.logreader" options="" />
+      <module name="sink.elasticsearch" options="" />
+      <module name="sink.jms" options="" />
+      <module name="sink.mongodb" options="" />
+      <module name="sink.oracle" options="" />
+      <module name="sink.shopify" options="" />
+      <module name="sink.sparkdelta" options="" />
+      <module name="source.dataproducer" options="-parameters" />
+      <module name="source.mysqlgeneric" options="-parameters" />
+      <module name="source.suitecrm" options="" />
+      <module name="source.wordpress" options="-parameters" />
+    </option>
+  </component>
+</project>

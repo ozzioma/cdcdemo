@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80fd1459-a111-4bf3-a61c-1487bff85e99" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/sinksparkdelta/target/" />
+    <ignored path="$PROJECT_DIR$/mysqllogreader/target/" />
+    <ignored path="$PROJECT_DIR$/sinkmongodb/target/" />
+    <ignored path="$PROJECT_DIR$/sinkoracle/target/" />
+    <ignored path="$PROJECT_DIR$/commonsdata/target/" />
+    <ignored path="$PROJECT_DIR$/sinkelasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/sinkshopify/target/" />
+    <ignored path="$PROJECT_DIR$/sourcesuitecrm/target/" />
+    <ignored path="$PROJECT_DIR$/sourcemysqlgeneric/target/" />
+    <ignored path="$PROJECT_DIR$/sourcedataproducer/target/" />
+    <ignored path="$PROJECT_DIR$/sinkjms/target/" />
+    <ignored path="$PROJECT_DIR$/sourcewordpress/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordpressLogReaderApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#10684#10685#0" expanded="true" />
+                <element signature="e#10736#10737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressKafkaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkDeltaApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sinksparkdelta/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcedataproducer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2862">
+              <caret line="159" selection-start-line="153" selection-end-line="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/kafka/KafkaProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/ProducerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/SampleDataGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="183" column="11" lean-forward="true" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomerTransaction.java" />
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TransactionMaster.java" />
+        <option value="$PROJECT_DIR$/commonsdata/pom.xml" />
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomLocalDateTimeSerializer.java" />
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TxnDto.java" />
+        <option value="$PROJECT_DIR$/sourcemysqlgeneric/src/main/java/com/ozzydemo/cdc/source/mysqlgen/SampleDataGen.java" />
+        <option value="$PROJECT_DIR$/sourcemysqlgeneric/pom.xml" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/pom.xml" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sourcemysqlgeneric/src/main/java/com/ozzydemo/cdc/source/mysqlgen/MySQLReaderAppConfig.java" />
+        <option value="$PROJECT_DIR$/sourcemysqlgeneric/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/config/ProducerConfig.java" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/ProducerApp.java" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/kafka/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/config/ProducerAppConfig.java" />
+        <option value="$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/SampleDataGen.java" />
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/Customer.java" />
+        <option value="$PROJECT_DIR$/sourcewordpress/pom.xml" />
+        <option value="$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordpressReaderConfig.java" />
+        <option value="$PROJECT_DIR$/sourcewordpress/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sourcemysqlgeneric/src/main/java/com/ozzydemo/cdc/source/mysqlgen/MySQLBinLogReaderApp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/WordPressPost.java" />
+        <option value="$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressKafkaConfig.java" />
+        <option value="$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/config/SparkDeltaAppConfig.java" />
+        <option value="$PROJECT_DIR$/sinksparkdelta/pom.xml" />
+        <option value="$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordpressLogReaderApp.java" />
+        <option value="$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressProducer.java" />
+        <option value="$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkHelper.java" />
+        <option value="$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkDeltaApp.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="649" />
+    <option name="width" value="1286" />
+    <option name="height" value="1061" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commons" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commons" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="commonsdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commons" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="commonsdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commons" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="commonsdata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sink" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcedataproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcewordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcewordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcewordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcewordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdcdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="sourcewordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560755843273" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.37485582" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ozzydemo.cdc.source.producer.kafka" />
+      <recent name="com.ozzydemo.cdc.source.producer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devcenter\myrepo\cdcdemo\sourcewordpress\src\main\resources" />
+      <recent name="D:\devcenter\myrepo\cdcdemo\sourcedataproducer\src\main\resources" />
+      <recent name="D:\devcenter\myrepo\cdcdemo\commonsdata\src\main\java\com\ozzydemo\cdc\commons\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SparkDeltaApp">
+    <configuration name="SparkDeltaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ozzydemo.cdc.sink.spark.SparkDeltaApp" />
+      <module name="sink.sparkdelta" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ozzydemo.cdc.sink.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySQLBinLogReaderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="source.mysqlgeneric" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ozzydemo.cdc.source.mysqlgen.MySQLBinLogReaderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="source.dataproducer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ozzydemo.cdc.source.producer.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ozzydemo.cdc.source.producer.ProducerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordpressLogReaderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="source.wordpress" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ozzydemo.cdc.source.wordpress.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ozzydemo.cdc.source.wordpress.WordpressLogReaderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SparkDeltaApp" />
+        <item itemvalue="Spring Boot.WordpressLogReaderApp" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="Spring Boot.ProducerApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80fd1459-a111-4bf3-a61c-1487bff85e99" name="Default Changelist" comment="" />
+      <created>1560636351611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560636351611</updated>
+      <workItem from="1560636360571" duration="38128000" />
+      <workItem from="1560756398656" duration="1232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39360000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1618" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25288832" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39434725" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="YouTrack" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="TeamCity" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32954547" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="17" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.5994318" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Json Parser" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mysqllogreader/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/sinkelasticsearch/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinkmongodb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinkoracle/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinkshopify/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcesuitecrm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomerRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TransactionMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TransactionMasterRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TransactionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/PostingType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/CommonsApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomLocalDateTimeSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/TxnDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinkjms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomerTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/CustomerTransactionRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcemysqlgeneric/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="9" selection-start-line="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcemysqlgeneric/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="176" column="10" selection-start-line="10" selection-start-column="3" selection-end-line="176" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcemysqlgeneric/src/main/java/com/ozzydemo/cdc/source/mysqlgen/MySQLReaderAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" selection-start-line="7" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/shyiko/mysql-binlog-connector-java/0.18.1/mysql-binlog-connector-java-0.18.1.jar!/com/github/shyiko/mysql/binlog/BinaryLogClient.class" />
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcemysqlgeneric/src/main/java/com/ozzydemo/cdc/source/mysqlgen/MySQLBinLogReaderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/tools/Java/jdk1.8.0_191/src.zip!/java/time/format/DateTimePrintContext.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/commonsdata/src/main/java/com/ozzydemo/cdc/commons/data/domain/WordPressPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/config/ProducerAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="32" column="78" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordpressReaderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/config/SparkDeltaAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinksparkdelta/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2862">
+          <caret line="159" selection-start-line="153" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sinksparkdelta/src/main/java/com/ozzydemo/cdc/sink/spark/SparkDeltaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="102" column="12" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordpressLogReaderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressKafkaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcewordpress/src/main/java/com/ozzydemo/cdc/source/wordpress/WordPressProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#10684#10685#0" expanded="true" />
+            <element signature="e#10736#10737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/kafka/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/ProducerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcedataproducer/src/main/java/com/ozzydemo/cdc/source/producer/SampleDataGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="183" column="11" lean-forward="true" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>source.wordpress</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.37485582" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
