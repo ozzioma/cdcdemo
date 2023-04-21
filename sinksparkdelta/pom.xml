@@ -13,7 +13,7 @@
     <properties>
         <java.version>1.8</java.version>
         <maven-scala-plugin.version>2.15.2</maven-scala-plugin.version>
-        <spark.version>2.4.3</spark.version>
+        <spark.version>3.4.0</spark.version>
         <spark-twitter.version>2.0.0</spark-twitter.version>
     </properties>
 
